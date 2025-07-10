@@ -1,4 +1,4 @@
-# VFGF
+# VFGF The source code will be released after the paper is officially accepted！
 Virtual Frame-Augmented Guided Prediction Framework for Long-Term Egocentric Activity Forecasting
 # Introduction
 This is a Pytorch implementation of the model described in our paper:
