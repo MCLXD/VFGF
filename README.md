@@ -25,7 +25,7 @@ For the three modality features (rgb, flow, obj), please refer to https://github
 - For three modality features: python main.py --gpu_id 0 --batch_size 16 --mode train --modality fusion --lr 0.1 --wd 1e-5 --epoch 200
 # Validation
 ###  Validation for Epic-Kitchen dataset
-Please download the pre-trained model weigths from [Quark](https://pan.quark.cn/s/aad030f99d2f) passward: 'knzY', and put them in the folder './results/EPIC/base_srl/pre_trained/'.
+Please download the pre-trained model weigths from [Baidu]([https://pan.quark.cn/s/aad030f99d2f](https://pan.baidu.com/s/1n-5uCvD2VomkPiTgGlmkOQ)) passward: '343x', and put them in the folder './results/EPIC/base_srl/pre_trained/'.
 
  - For rgb feature: python main.py --gpu_ids 0 --batch_size 128 --mode validate --modality rgb --hidden 1024 --feat_in 1024 --best_model_name model_name --resume_timestamp pre_trained
  - For three modality features, python main.py --gpu_ids 0 --batch_size 128 --mode validate --modality fusion --best_model_name model_name
